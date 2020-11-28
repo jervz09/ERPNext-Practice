@@ -1,0 +1,1621 @@
+[ERROR] 2020-11-23 16:53:52,707 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: testsite
+Form Dict: {
+ "cached_timestamp": "",
+ "cmd": "frappe.desk.form.load.getdoctype",
+ "doctype": "Library Membership",
+ "with_parent": "1"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
+    response = frappe.api.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
+    return fn(*args, **newargs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/load.py", line 70, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/load.py", line 80, in get_meta_bundle
+    bundle = [frappe.desk.form.meta.get_meta(doctype)]
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/meta.py", line 29, in get_meta
+    meta = FormMeta(doctype)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/meta.py", line 39, in __init__
+    self.load_assets()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/meta.py", line 53, in load_assets
+    self.load_templates()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/meta.py", line 179, in load_templates
+    module = load_doctype_module(self.name)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/modules/utils.py", line 194, in load_doctype_module
+    module = get_doctype_module(doctype)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/modules/utils.py", line 188, in get_doctype_module
+    return frappe.cache().get_value("doctype_modules", make_modules_dict)[doctype]
+KeyError: 'Library Membership'
+[DEBUG] 2020-11-23 16:56:23,514 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 16:57:23,637 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 16:58:23,801 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[ERROR] 2020-11-23 16:58:26,979 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: testsite
+Form Dict: {
+ "cmd": "frappe.client.save",
+ "doc": "{\"docstatus\":0,\"doctype\":\"Library Membership\",\"name\":\"New Library Membership 1\",\"__islocal\":1,\"__unsaved\":1,\"owner\":\"Administrator\",\"paid\":0,\"__run_link_triggers\":1,\"library_member\":\"LMN00001\"}"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
+    response = frappe.api.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
+    return fn(*args, **newargs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/client.py", line 196, in save
+    doc = frappe.get_doc(doc)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 762, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 69, in get_doc
+    controller = get_controller(doctype)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/base_document.py", line 48, in get_controller
+    module = load_doctype_module(doctype, module_name)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/modules/utils.py", line 204, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/erpnext/erpnext/library_management/doctype/library_membership/library_membership.py", line 9
+    class Library Membership(Document):
+                           ^
+SyntaxError: invalid syntax
+[ERROR] 2020-11-23 16:58:27,167 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-23 16:58:26.979906-127.0.0.1-bfd
+[ERROR] 2020-11-23 16:58:27,915 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: testsite
+Form Dict: {
+ "cached_timestamp": "",
+ "cmd": "frappe.desk.form.load.getdoctype",
+ "doctype": "Library Membership",
+ "with_parent": "1"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
+    response = frappe.api.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
+    return fn(*args, **newargs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/load.py", line 70, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/load.py", line 80, in get_meta_bundle
+    bundle = [frappe.desk.form.meta.get_meta(doctype)]
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/meta.py", line 29, in get_meta
+    meta = FormMeta(doctype)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/meta.py", line 39, in __init__
+    self.load_assets()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/meta.py", line 53, in load_assets
+    self.load_templates()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/meta.py", line 179, in load_templates
+    module = load_doctype_module(self.name)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/modules/utils.py", line 204, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/erpnext/erpnext/library_management/doctype/library_membership/library_membership.py", line 9
+    class Library Membership(Document):
+                           ^
+SyntaxError: invalid syntax
+[ERROR] 2020-11-23 16:58:27,960 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-23 16:58:27.920304-127.0.0.1-eb8
+[DEBUG] 2020-11-23 16:59:23,963 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:00:24,108 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:01:24,224 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:02:24,348 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:03:24,461 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[ERROR] 2020-11-23 17:04:13,176 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: testsite
+Form Dict: {
+ "cached_timestamp": "",
+ "cmd": "frappe.desk.form.load.getdoctype",
+ "doctype": "Library Membership",
+ "with_parent": "1"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
+    response = frappe.api.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
+    return fn(*args, **newargs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/load.py", line 70, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/load.py", line 80, in get_meta_bundle
+    bundle = [frappe.desk.form.meta.get_meta(doctype)]
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/meta.py", line 29, in get_meta
+    meta = FormMeta(doctype)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/meta.py", line 39, in __init__
+    self.load_assets()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/meta.py", line 53, in load_assets
+    self.load_templates()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/meta.py", line 179, in load_templates
+    module = load_doctype_module(self.name)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/modules/utils.py", line 204, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/erpnext/erpnext/library_management/doctype/library_membership/library_membership.py", line 9
+    class Library Membership(Document):
+                           ^
+SyntaxError: invalid syntax
+[ERROR] 2020-11-23 17:04:13,202 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-23 17:04:13.177335-127.0.0.1-6e7
+[DEBUG] 2020-11-23 17:04:24,627 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:05:24,744 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:06:24,867 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:07:25,004 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:08:25,202 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:09:25,344 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:10:25,475 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:11:25,617 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:12:25,800 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:13:25,954 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:14:26,103 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:15:26,220 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[ERROR] 2020-11-23 17:15:47,163 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: testsite
+Form Dict: {
+ "cmd": "frappe.client.submit",
+ "doc": "{\"modified_by\":\"Administrator\",\"to_date\":null,\"creation\":\"2020-11-23 17:15:44.131407\",\"parenttype\":null,\"idx\":0,\"docstatus\":0,\"doctype\":\"Library Membership\",\"full_name\":null,\"modified\":\"2020-11-23 17:15:44.131407\",\"__run_link_triggers\":1,\"parent\":null,\"paid\":0,\"amended_from\":null,\"from_date\":null,\"owner\":\"Administrator\",\"library_member\":\"LMN00001\",\"parentfield\":null,\"name\":\"LMSN0002\"}"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
+    response = frappe.api.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
+    return fn(*args, **newargs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/client.py", line 220, in submit
+    doc.submit()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 867, in submit
+    self._submit()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 856, in _submit
+    self.save()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 273, in save
+    return self._save(*args, **kwargs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 309, in _save
+    self.run_before_save_methods()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 901, in run_before_save_methods
+    self.run_method("before_submit")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 797, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 1073, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 1056, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 791, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/anotherguest/erpnext/projectName/apps/erpnext/erpnext/library_management/doctype/library_membership/library_membership.py", line 12, in before_submit
+    exists = frappe.db.exists(
+NameError: name 'frappe' is not defined
+[ERROR] 2020-11-23 17:15:47,236 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-23 17:15:47.164051-127.0.0.1-852
+[DEBUG] 2020-11-23 17:16:26,400 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:17:26,514 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:18:26,632 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:19:26,748 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:20:26,891 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:21:27,028 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:22:27,144 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:23:27,254 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:24:27,404 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:25:27,538 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:26:27,671 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:27:27,811 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:28:27,938 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:29:28,062 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:30:28,219 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:31:28,345 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:32:28,485 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:33:28,597 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:34:28,724 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:35:28,864 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:36:29,008 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:37:29,130 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:38:29,266 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:39:29,409 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:40:29,559 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[ERROR] 2020-11-23 17:41:22,382 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: testsite
+Form Dict: {
+ "cmd": "frappe.client.submit",
+ "doc": "{\"modified_by\":\"Administrator\",\"to_date\":null,\"creation\":\"2020-11-23 17:41:20.441966\",\"parenttype\":null,\"idx\":0,\"docstatus\":0,\"doctype\":\"Library Membership\",\"full_name\":null,\"modified\":\"2020-11-23 17:41:20.441966\",\"__run_link_triggers\":1,\"parent\":null,\"paid\":0,\"amended_from\":null,\"from_date\":null,\"owner\":\"Administrator\",\"library_member\":\"LMN00001\",\"parentfield\":null,\"name\":\"LMSN0003\"}"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
+    response = frappe.api.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
+    return fn(*args, **newargs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/client.py", line 220, in submit
+    doc.submit()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 867, in submit
+    self._submit()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 856, in _submit
+    self.save()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 273, in save
+    return self._save(*args, **kwargs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 309, in _save
+    self.run_before_save_methods()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 901, in run_before_save_methods
+    self.run_method("before_submit")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 797, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 1073, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 1056, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 791, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/anotherguest/erpnext/projectName/apps/erpnext/erpnext/library_management/doctype/library_membership/library_membership.py", line 12, in before_submit
+    exists = frappe.db.exists(
+NameError: name 'frappe' is not defined
+[ERROR] 2020-11-23 17:41:22,386 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-23 17:41:22.383024-127.0.0.1-a33
+[DEBUG] 2020-11-23 17:41:29,702 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:42:29,837 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:43:29,995 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:44:30,156 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:45:30,281 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:46:30,438 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:47:30,581 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:48:30,738 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:49:30,894 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:50:31,033 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:51:31,160 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:52:31,366 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:53:31,526 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:54:31,678 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:55:31,788 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:56:31,926 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:57:32,054 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:58:32,214 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 17:59:32,330 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:00:32,479 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[ERROR] 2020-11-23 18:00:56,490 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: testsite
+Form Dict: {
+ "cmd": "frappe.client.submit",
+ "doc": "{\"amended_from\":null,\"idx\":0,\"owner\":\"Administrator\",\"parenttype\":null,\"creation\":\"2020-11-23 18:00:54.393040\",\"date\":\"2020-11-23\",\"modified\":\"2020-11-23 18:00:54.393040\",\"name\":\"LT0001\",\"doctype\":\"Library Transaction\",\"type\":\"Issue\",\"modified_by\":\"Administrator\",\"docstatus\":0,\"library_member\":\"LMN00001\",\"parentfield\":null,\"article\":\"Ang Halamang Gamot ni Lola Basyang\",\"parent\":null,\"__run_link_triggers\":1}"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
+    response = frappe.api.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
+    return fn(*args, **newargs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/client.py", line 220, in submit
+    doc.submit()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 867, in submit
+    self._submit()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 856, in _submit
+    self.save()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 273, in save
+    return self._save(*args, **kwargs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 309, in _save
+    self.run_before_save_methods()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 901, in run_before_save_methods
+    self.run_method("before_submit")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 797, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 1073, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 1056, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 791, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/anotherguest/erpnext/projectName/apps/erpnext/erpnext/library_management/doctype/library_transaction/library_transaction.py", line 13, in before_submit
+    self.validate_issue()
+  File "/home/anotherguest/erpnext/projectName/apps/erpnext/erpnext/library_management/doctype/library_transaction/library_transaction.py", line 30, in validate_issue
+    if article.status == "Issued":
+AttributeError: 'Article' object has no attribute 'status'
+[ERROR] 2020-11-23 18:00:56,567 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-23 18:00:56.491055-127.0.0.1-c59
+[DEBUG] 2020-11-23 18:01:32,622 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:02:32,782 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[ERROR] 2020-11-23 18:03:11,988 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: testsite
+Form Dict: {
+ "cmd": "frappe.client.submit",
+ "doc": "{\"amended_from\":null,\"idx\":0,\"owner\":\"Administrator\",\"parenttype\":null,\"creation\":\"2020-11-23 18:00:54.393040\",\"date\":\"2020-11-23\",\"modified\":\"2020-11-23 18:00:54.393040\",\"name\":\"LT0001\",\"doctype\":\"Library Transaction\",\"type\":\"Issue\",\"modified_by\":\"Administrator\",\"docstatus\":0,\"library_member\":\"LMN00001\",\"parentfield\":null,\"article\":\"Ang Halamang Gamot ni Lola Basyang\",\"parent\":null,\"__run_link_triggers\":1}"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
+    response = frappe.api.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
+    return fn(*args, **newargs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/client.py", line 220, in submit
+    doc.submit()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 867, in submit
+    self._submit()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 856, in _submit
+    self.save()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 273, in save
+    return self._save(*args, **kwargs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 309, in _save
+    self.run_before_save_methods()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 901, in run_before_save_methods
+    self.run_method("before_submit")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 797, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 1073, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 1056, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 791, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/anotherguest/erpnext/projectName/apps/erpnext/erpnext/library_management/doctype/library_transaction/library_transaction.py", line 13, in before_submit
+    self.validate_issue()
+  File "/home/anotherguest/erpnext/projectName/apps/erpnext/erpnext/library_management/doctype/library_transaction/library_transaction.py", line 28, in validate_issue
+    Article_Test = frappe.get_doc("Article_Test", self.Article_Test)
+AttributeError: 'LibraryTransaction' object has no attribute 'Article_Test'
+[ERROR] 2020-11-23 18:03:12,059 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-23 18:03:11.988709-127.0.0.1-06c
+[ERROR] 2020-11-23 18:03:18,638 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: testsite
+Form Dict: {
+ "cmd": "frappe.client.submit",
+ "doc": "{\"amended_from\":null,\"idx\":0,\"owner\":\"Administrator\",\"parenttype\":null,\"creation\":\"2020-11-23 18:00:54.393040\",\"date\":\"2020-11-23\",\"modified\":\"2020-11-23 18:00:54.393040\",\"name\":\"LT0001\",\"doctype\":\"Library Transaction\",\"type\":\"Issue\",\"modified_by\":\"Administrator\",\"docstatus\":0,\"library_member\":\"LMN00001\",\"parentfield\":null,\"article\":\"Ang Halamang Gamot ni Lola Basyang\",\"parent\":null,\"__run_link_triggers\":1}"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
+    response = frappe.api.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
+    return fn(*args, **newargs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/client.py", line 220, in submit
+    doc.submit()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 867, in submit
+    self._submit()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 856, in _submit
+    self.save()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 273, in save
+    return self._save(*args, **kwargs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 309, in _save
+    self.run_before_save_methods()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 901, in run_before_save_methods
+    self.run_method("before_submit")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 797, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 1073, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 1056, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 791, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/anotherguest/erpnext/projectName/apps/erpnext/erpnext/library_management/doctype/library_transaction/library_transaction.py", line 13, in before_submit
+    self.validate_issue()
+  File "/home/anotherguest/erpnext/projectName/apps/erpnext/erpnext/library_management/doctype/library_transaction/library_transaction.py", line 28, in validate_issue
+    Article_Test = frappe.get_doc("Article_Test", self.Article_Test)
+AttributeError: 'LibraryTransaction' object has no attribute 'Article_Test'
+[ERROR] 2020-11-23 18:03:18,708 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-23 18:03:18.638814-127.0.0.1-ad1
+[DEBUG] 2020-11-23 18:03:32,926 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[ERROR] 2020-11-23 18:04:15,420 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: testsite
+Form Dict: {
+ "action": "Submit",
+ "cmd": "frappe.desk.form.save.savedocs",
+ "doc": "{\"creation\":\"2020-11-23 18:00:54.393040\",\"doctype\":\"Library Transaction\",\"idx\":0,\"modified\":\"2020-11-23 18:04:08.019561\",\"library_member\":\"LMN00001\",\"owner\":\"Administrator\",\"name\":\"LT0001\",\"type\":\"Issue\",\"docstatus\":0,\"date\":\"2020-11-23\",\"modified_by\":\"Administrator\",\"article_test\":\"Ang Halamang Gamot ni Lola Basyang\"}"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
+    response = frappe.api.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
+    return fn(*args, **newargs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/save.py", line 19, in savedocs
+    doc.submit()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 867, in submit
+    self._submit()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 856, in _submit
+    self.save()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 273, in save
+    return self._save(*args, **kwargs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 309, in _save
+    self.run_before_save_methods()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 901, in run_before_save_methods
+    self.run_method("before_submit")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 797, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 1073, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 1056, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 791, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/anotherguest/erpnext/projectName/apps/erpnext/erpnext/library_management/doctype/library_transaction/library_transaction.py", line 13, in before_submit
+    self.validate_issue()
+  File "/home/anotherguest/erpnext/projectName/apps/erpnext/erpnext/library_management/doctype/library_transaction/library_transaction.py", line 28, in validate_issue
+    Article_Test = frappe.get_doc("Article_Test", self.Article_Test)
+AttributeError: 'LibraryTransaction' object has no attribute 'Article_Test'
+[ERROR] 2020-11-23 18:04:15,433 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-23 18:04:15.421469-127.0.0.1-685
+[DEBUG] 2020-11-23 18:04:33,090 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:05:33,233 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:06:33,357 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:07:33,465 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:08:33,637 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:09:33,765 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:10:33,924 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:11:34,052 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:12:34,213 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:13:34,346 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:14:34,500 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:15:34,647 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:16:34,797 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:17:34,936 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:18:35,152 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:19:35,300 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:20:35,466 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:21:35,608 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:22:35,805 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:23:35,921 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:24:36,058 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:25:36,239 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:26:36,347 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:27:36,465 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:28:36,592 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:29:36,747 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:30:36,924 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:31:37,099 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:32:37,315 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:33:37,467 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:34:37,612 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:35:37,758 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:36:37,913 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:37:38,071 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:38:38,233 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:39:38,382 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:40:38,535 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:41:38,667 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:42:38,821 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:43:38,971 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:44:39,117 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:45:39,253 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:46:39,413 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:47:39,541 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:48:39,668 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:49:39,782 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:50:39,902 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:51:40,026 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:52:40,148 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:53:40,281 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:54:40,425 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:55:40,570 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:56:40,778 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:57:40,913 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:58:41,070 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 18:59:41,209 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:00:41,373 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:01:41,485 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:02:41,613 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:03:41,728 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:04:41,846 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:05:41,985 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:06:42,102 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:07:42,201 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:08:42,383 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:09:42,484 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:10:42,592 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:11:42,703 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:12:42,846 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:13:43,003 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:14:43,155 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:15:43,304 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:16:43,482 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:17:43,632 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:18:43,792 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:19:43,926 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:20:44,108 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:21:44,243 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:22:44,392 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:23:44,541 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:24:44,709 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:25:44,857 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:26:45,003 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:27:45,138 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:28:45,303 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:29:45,455 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:30:45,597 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:31:45,740 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:32:45,913 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:33:46,067 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:34:46,211 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:35:46,355 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:36:46,524 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:37:46,674 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:38:46,810 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:39:46,945 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:40:47,111 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:41:47,260 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:42:47,388 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:43:47,523 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:44:47,719 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:45:47,869 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:46:48,007 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:47:48,154 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:48:48,350 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:49:48,477 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:50:48,619 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:51:48,768 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:52:48,926 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:53:49,071 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:54:49,219 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:55:49,377 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:56:49,568 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:57:49,718 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:58:49,871 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 19:59:50,018 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:00:50,214 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:01:50,357 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:02:50,534 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:03:50,654 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:04:50,828 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:05:50,979 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:06:51,132 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:07:51,285 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:08:51,473 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:09:51,605 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:10:51,720 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:11:51,872 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:12:52,054 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:13:52,200 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:14:52,346 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:15:52,466 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:16:52,661 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:17:52,799 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:18:52,925 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:19:53,066 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:20:53,226 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:21:53,333 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:22:53,476 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:23:53,629 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:24:53,790 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:25:53,936 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:26:54,099 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:27:54,249 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:28:54,411 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:29:54,560 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:30:54,709 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:31:54,843 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:32:55,011 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:33:55,159 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:34:55,296 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:35:55,448 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:36:55,605 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:37:55,756 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:38:55,899 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-23 20:39:56,015 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-24 14:47:32,161 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-24 14:48:32,415 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-24 14:49:32,570 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-24 14:50:32,707 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-24 14:51:32,846 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-24 14:52:33,015 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-24 14:53:33,155 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-24 14:54:33,306 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-24 14:55:33,441 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-24 14:56:33,556 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-24 14:57:33,693 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-24 14:58:33,885 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[ERROR] 2020-11-24 14:59:28,760 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: testsite
+Form Dict: {
+ "cmd": "frappe.realtime.get_user_info"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
+    response = frappe.api.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
+    return fn(*args, **newargs)
+TypeError: get_user_info() missing 1 required positional argument: 'sid'
+[ERROR] 2020-11-24 14:59:28,859 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-24 14:59:28.760420-127.0.0.1-0af
+[DEBUG] 2020-11-24 15:00:25,946 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-24 15:01:26,094 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-24 15:02:26,243 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-24 15:03:26,420 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-24 15:04:26,576 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-24 15:05:26,699 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-24 15:06:26,830 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-24 15:07:26,981 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-24 15:08:27,153 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-24 15:09:27,284 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-24 15:10:27,417 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-24 15:11:27,540 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-24 15:12:27,692 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-24 15:13:27,821 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-24 15:14:27,965 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-24 15:15:28,121 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-24 15:16:28,334 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-24 15:17:28,474 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-24 15:18:28,606 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[ERROR] 2020-11-24 15:19:14,056 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: testsite
+Form Dict: {
+ "cached_timestamp": "",
+ "cmd": "frappe.desk.form.load.getdoctype",
+ "doctype": "Library Member",
+ "with_parent": "1"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
+    response = frappe.api.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
+    return fn(*args, **newargs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/load.py", line 70, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/load.py", line 80, in get_meta_bundle
+    bundle = [frappe.desk.form.meta.get_meta(doctype)]
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/meta.py", line 29, in get_meta
+    meta = FormMeta(doctype)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/meta.py", line 39, in __init__
+    self.load_assets()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/meta.py", line 53, in load_assets
+    self.load_templates()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/meta.py", line 179, in load_templates
+    module = load_doctype_module(self.name)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/modules/utils.py", line 204, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/erpnext/erpnext/library_management/doctype/library_member/library_member.py", line 11
+    self.full_name = f'{self.first_name} {self.last_name or ""}'
+                                                               ^
+SyntaxError: invalid syntax
+[ERROR] 2020-11-24 15:19:14,183 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-24 15:19:14.059200-127.0.0.1-b5e
+[DEBUG] 2020-11-24 15:19:28,809 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-24 15:20:28,980 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[ERROR] 2020-11-24 15:20:58,547 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: testsite
+Form Dict: {
+ "cmd": "frappe.client.save",
+ "doc": "{\"docstatus\":0,\"doctype\":\"Library Member\",\"name\":\"New Library Member 1\",\"__islocal\":1,\"__unsaved\":1,\"owner\":\"Administrator\",\"__run_link_triggers\":1,\"first_name\":\"dasdasd\"}"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
+    response = frappe.api.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
+    return fn(*args, **newargs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/client.py", line 196, in save
+    doc = frappe.get_doc(doc)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 762, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 69, in get_doc
+    controller = get_controller(doctype)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/base_document.py", line 48, in get_controller
+    module = load_doctype_module(doctype, module_name)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/modules/utils.py", line 204, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/erpnext/erpnext/library_management/doctype/library_member/library_member.py", line 11
+    self.full_name = f'{self.first_name} {self.last_name or ""}'
+                                                               ^
+SyntaxError: invalid syntax
+[ERROR] 2020-11-24 15:20:58,599 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-24 15:20:58.548125-127.0.0.1-f04
+[ERROR] 2020-11-24 15:20:59,297 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: testsite
+Form Dict: {
+ "cached_timestamp": "",
+ "cmd": "frappe.desk.form.load.getdoctype",
+ "doctype": "Library Member",
+ "with_parent": "1"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
+    response = frappe.api.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
+    return fn(*args, **newargs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/load.py", line 70, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/load.py", line 80, in get_meta_bundle
+    bundle = [frappe.desk.form.meta.get_meta(doctype)]
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/meta.py", line 29, in get_meta
+    meta = FormMeta(doctype)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/meta.py", line 39, in __init__
+    self.load_assets()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/meta.py", line 53, in load_assets
+    self.load_templates()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/meta.py", line 179, in load_templates
+    module = load_doctype_module(self.name)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/modules/utils.py", line 204, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/erpnext/erpnext/library_management/doctype/library_member/library_member.py", line 11
+    self.full_name = f'{self.first_name} {self.last_name or ""}'
+                                                               ^
+SyntaxError: invalid syntax
+[ERROR] 2020-11-24 15:20:59,449 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-24 15:20:59.310934-127.0.0.1-133
+[DEBUG] 2020-11-24 15:21:29,110 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-24 15:22:29,215 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-24 15:23:29,336 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[ERROR] 2020-11-24 15:23:40,054 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: testsite
+Form Dict: {
+ "cached_timestamp": "",
+ "cmd": "frappe.desk.form.load.getdoctype",
+ "doctype": "Library Member",
+ "with_parent": "1"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
+    response = frappe.api.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
+    return fn(*args, **newargs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/load.py", line 70, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/load.py", line 80, in get_meta_bundle
+    bundle = [frappe.desk.form.meta.get_meta(doctype)]
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/meta.py", line 29, in get_meta
+    meta = FormMeta(doctype)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/meta.py", line 39, in __init__
+    self.load_assets()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/meta.py", line 53, in load_assets
+    self.load_templates()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/meta.py", line 179, in load_templates
+    module = load_doctype_module(self.name)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/modules/utils.py", line 204, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/erpnext/erpnext/library_management/doctype/library_member/library_member.py", line 11
+    self.full_name = f'{self.first_name} {self.last_name or ""}'
+                                                               ^
+SyntaxError: invalid syntax
+[ERROR] 2020-11-24 15:23:40,237 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-24 15:23:40.056519-127.0.0.1-90d
+[DEBUG] 2020-11-24 15:24:29,497 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-24 15:25:29,630 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[ERROR] 2020-11-24 15:26:11,036 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: testsite
+Form Dict: {
+ "cached_timestamp": "",
+ "cmd": "frappe.desk.form.load.getdoctype",
+ "doctype": "Library Member",
+ "with_parent": "1"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
+    response = frappe.api.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
+    return fn(*args, **newargs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/load.py", line 70, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/load.py", line 80, in get_meta_bundle
+    bundle = [frappe.desk.form.meta.get_meta(doctype)]
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/meta.py", line 29, in get_meta
+    meta = FormMeta(doctype)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/meta.py", line 39, in __init__
+    self.load_assets()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/meta.py", line 53, in load_assets
+    self.load_templates()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/meta.py", line 179, in load_templates
+    module = load_doctype_module(self.name)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/modules/utils.py", line 204, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/erpnext/erpnext/library_management/doctype/library_member/library_member.py", line 11
+    self.full_name = f'{self.first_name}'
+                                        ^
+SyntaxError: invalid syntax
+[ERROR] 2020-11-24 15:26:11,352 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-24 15:26:11.038848-127.0.0.1-b42
+[DEBUG] 2020-11-24 15:26:29,780 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[ERROR] 2020-11-24 15:26:44,344 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: testsite
+Form Dict: {
+ "cmd": "frappe.client.save",
+ "doc": "{\"docstatus\":0,\"doctype\":\"Library Member\",\"name\":\"New Library Member 1\",\"__islocal\":1,\"__unsaved\":1,\"owner\":\"Administrator\",\"__run_link_triggers\":1,\"first_name\":\"dsa\"}"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
+    response = frappe.api.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
+    return fn(*args, **newargs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/client.py", line 196, in save
+    doc = frappe.get_doc(doc)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 762, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/document.py", line 69, in get_doc
+    controller = get_controller(doctype)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/model/base_document.py", line 48, in get_controller
+    module = load_doctype_module(doctype, module_name)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/modules/utils.py", line 204, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/erpnext/erpnext/library_management/doctype/library_member/library_member.py", line 10
+    def before_save(self):
+                         ^
+SyntaxError: unexpected EOF while parsing
+[ERROR] 2020-11-24 15:26:44,474 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-24 15:26:44.345232-127.0.0.1-a47
+[ERROR] 2020-11-24 15:26:45,109 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: testsite
+Form Dict: {
+ "cached_timestamp": "",
+ "cmd": "frappe.desk.form.load.getdoctype",
+ "doctype": "Library Member",
+ "with_parent": "1"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
+    response = frappe.api.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
+    return fn(*args, **newargs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/load.py", line 70, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/load.py", line 80, in get_meta_bundle
+    bundle = [frappe.desk.form.meta.get_meta(doctype)]
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/meta.py", line 29, in get_meta
+    meta = FormMeta(doctype)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/meta.py", line 39, in __init__
+    self.load_assets()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/meta.py", line 53, in load_assets
+    self.load_templates()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/desk/form/meta.py", line 179, in load_templates
+    module = load_doctype_module(self.name)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/modules/utils.py", line 204, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/erpnext/erpnext/library_management/doctype/library_member/library_member.py", line 10
+    def before_save(self):
+                         ^
+SyntaxError: unexpected EOF while parsing
+[ERROR] 2020-11-24 15:26:45,187 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-24 15:26:45.113985-127.0.0.1-b6f
+[DEBUG] 2020-11-24 15:27:29,926 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite
+[DEBUG] 2020-11-24 15:28:30,120 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: testsite
+Queued events for site testsite

@@ -1,0 +1,65 @@
+/home/anotherguest/erpnext/projectName/env/lib/python3.5/site-packages/OpenSSL/crypto.py:12: CryptographyDeprecationWarning: Python 3.5 support will be dropped in the next release of cryptography. Please upgrade your Python.
+  from cryptography import x509
+Backup Summary at 2020-11-23 12:00:03.308525
+--------------------------------------------
+Database backup: ./testsite/private/backups/20201123_120002-testsite-database.sql.gz
+/home/anotherguest/erpnext/projectName/env/lib/python3.5/site-packages/OpenSSL/crypto.py:12: CryptographyDeprecationWarning: Python 3.5 support will be dropped in the next release of cryptography. Please upgrade your Python.
+  from cryptography import x509
+Backup Summary at 2020-11-23 18:00:03.115049
+--------------------------------------------
+Database backup: ./testsite/private/backups/20201123_180002-testsite-database.sql.gz
+/home/anotherguest/erpnext/projectName/env/lib/python3.5/site-packages/OpenSSL/crypto.py:12: CryptographyDeprecationWarning: Python 3.5 support will be dropped in the next release of cryptography. Please upgrade your Python.
+  from cryptography import x509
+Backup Summary at 2020-11-24 18:00:03.482058
+--------------------------------------------
+Database backup: ./testsite/private/backups/20201124_180002-testsite-database.sql.gz
+/home/anotherguest/erpnext/projectName/env/lib/python3.5/site-packages/OpenSSL/crypto.py:12: CryptographyDeprecationWarning: Python 3.5 support will be dropped in the next release of cryptography. Please upgrade your Python.
+  from cryptography import x509
+Backup Summary at 2020-11-25 00:00:03.383042
+--------------------------------------------
+Database backup: ./testsite/private/backups/20201125_000002-testsite-database.sql.gz
+/home/anotherguest/erpnext/projectName/env/lib/python3.5/site-packages/OpenSSL/crypto.py:12: CryptographyDeprecationWarning: Python 3.5 support will be dropped in the next release of cryptography. Please upgrade your Python.
+  from cryptography import x509
+Backup Summary at 2020-11-25 06:00:03.457397
+--------------------------------------------
+Database backup: ./testsite/private/backups/20201125_060002-testsite-database.sql.gz
+/home/anotherguest/erpnext/projectName/env/lib/python3.5/site-packages/OpenSSL/crypto.py:12: CryptographyDeprecationWarning: Python 3.5 support will be dropped in the next release of cryptography. Please upgrade your Python.
+  from cryptography import x509
+Backup Summary at 2020-11-25 12:00:03.643812
+--------------------------------------------
+Database backup: ./testsite/private/backups/20201125_120002-testsite-database.sql.gz
+/home/anotherguest/erpnext/projectName/env/lib/python3.5/site-packages/OpenSSL/crypto.py:12: CryptographyDeprecationWarning: Python 3.5 support will be dropped in the next release of cryptography. Please upgrade your Python.
+  from cryptography import x509
+Backup Summary at 2020-11-27 00:00:02.620187
+--------------------------------------------
+Database backup: ./library.test/private/backups/20201127_000002-library_test-database.sql.gz
+File is old
+File is old
+File is old
+File is old
+File is old
+File is old
+File is old
+Backup Summary at 2020-11-27 00:00:09.599497
+--------------------------------------------
+Database backup: ./testsite/private/backups/20201127_000002-testsite-database.sql.gz
+/home/anotherguest/erpnext/projectName/env/lib/python3.5/site-packages/OpenSSL/crypto.py:12: CryptographyDeprecationWarning: Python 3.5 support will be dropped in the next release of cryptography. Please upgrade your Python.
+  from cryptography import x509
+Backup Summary at 2020-11-27 12:00:03.672802
+--------------------------------------------
+Database backup: ./library.test/private/backups/20201127_120002-library_test-database.sql.gz
+/home/anotherguest/erpnext/projectName/env/lib/python3.5/site-packages/OpenSSL/crypto.py:12: CryptographyDeprecationWarning: Python 3.5 support will be dropped in the next release of cryptography. Please upgrade your Python.
+  from cryptography import x509
+Backup Summary at 2020-11-27 18:00:03.231971
+--------------------------------------------
+Database backup: ./library.test/private/backups/20201127_180002-library_test-database.sql.gz
+/home/anotherguest/erpnext/projectName/env/lib/python3.5/site-packages/OpenSSL/crypto.py:12: CryptographyDeprecationWarning: Python 3.5 support will be dropped in the next release of cryptography. Please upgrade your Python.
+  from cryptography import x509
+Backup Summary at 2020-11-28 00:00:03.069359
+--------------------------------------------
+Database backup: ./library.test/private/backups/20201128_000002-library_test-database.sql.gz
+/home/anotherguest/erpnext/projectName/env/lib/python3.5/site-packages/OpenSSL/crypto.py:12: CryptographyDeprecationWarning: Python 3.5 support will be dropped in the next release of cryptography. Please upgrade your Python.
+  from cryptography import x509
+Backup Summary at 2020-11-28 06:00:02.813807
+--------------------------------------------
+Database backup: ./library.test/private/backups/20201128_060002-library_test-database.sql.gz

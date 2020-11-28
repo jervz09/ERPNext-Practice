@@ -1,0 +1,23 @@
++---------------+--------------+------+-----+---------+-------+
+| Field         | Type         | Null | Key | Default | Extra |
++---------------+--------------+------+-----+---------+-------+
+| name          | varchar(140) | NO   | PRI | NULL    |       |
+| creation      | datetime(6)  | YES  |     | NULL    |       |
+| modified      | datetime(6)  | YES  | MUL | NULL    |       |
+| modified_by   | varchar(140) | YES  |     | NULL    |       |
+| owner         | varchar(140) | YES  |     | NULL    |       |
+| docstatus     | int(1)       | NO   |     | 0       |       |
+| parent        | varchar(140) | YES  | MUL | NULL    |       |
+| parentfield   | varchar(140) | YES  |     | NULL    |       |
+| parenttype    | varchar(140) | YES  |     | NULL    |       |
+| idx           | int(8)       | NO   |     | 0       |       |
+| _user_tags    | text         | YES  |     | NULL    |       |
+| first_name    | varchar(140) | YES  |     | NULL    |       |
+| email_address | varchar(140) | YES  |     | NULL    |       |
+| _liked_by     | text         | YES  |     | NULL    |       |
+| phone         | varchar(140) | YES  |     | NULL    |       |
+| _comments     | text         | YES  |     | NULL    |       |
+| last_name     | varchar(140) | YES  |     | NULL    |       |
+| full_name     | varchar(140) | YES  |     | NULL    |       |
+| _assign       | text         | YES  |     | NULL    |       |
++---------------+--------------+------+-----+---------+-------+

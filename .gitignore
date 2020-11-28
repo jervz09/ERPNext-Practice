@@ -1,0 +1,9 @@
+bin
+config
+env
+include
+lib
+local
+logs
+apps/frappe
+apps/erpnext

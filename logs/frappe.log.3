@@ -1,0 +1,1552 @@
+[ERROR] 2020-11-27 12:30:10,869 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Exception in Enqueue Events for Site library.test
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events_for_site
+    enqueue_events(site=site, queued_jobs=queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 111, in enqueue_events
+    out = enqueue_applicable_events(site, nowtime, last, queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 129, in enqueue_applicable_events
+    trigger_if_enabled(site, event, last, queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 122, in trigger_if_enabled
+    trigger(site, event, last, queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 147, in trigger
+    events_from_hooks = get_scheduler_events(event)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 179, in get_scheduler_events
+    scheduler_events = frappe.get_hooks("scheduler_events")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 966, in get_hooks
+    hooks = _dict(load_app_hooks())
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 945, in load_app_hooks
+    app_hooks = get_module(app + ".hooks")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/library_management/library_management/hooks.py", line 106
+    "monthly": [
+            ^
+SyntaxError: invalid syntax
+
+[ERROR] 2020-11-27 12:31:10,979 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Exception in Enqueue Events for Site library.test
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events_for_site
+    enqueue_events(site=site, queued_jobs=queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 111, in enqueue_events
+    out = enqueue_applicable_events(site, nowtime, last, queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 129, in enqueue_applicable_events
+    trigger_if_enabled(site, event, last, queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 122, in trigger_if_enabled
+    trigger(site, event, last, queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 147, in trigger
+    events_from_hooks = get_scheduler_events(event)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 179, in get_scheduler_events
+    scheduler_events = frappe.get_hooks("scheduler_events")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 966, in get_hooks
+    hooks = _dict(load_app_hooks())
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 945, in load_app_hooks
+    app_hooks = get_module(app + ".hooks")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/library_management/library_management/hooks.py", line 106
+    "monthly": [
+            ^
+SyntaxError: invalid syntax
+
+[ERROR] 2020-11-27 12:32:11,087 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Exception in Enqueue Events for Site library.test
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events_for_site
+    enqueue_events(site=site, queued_jobs=queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 111, in enqueue_events
+    out = enqueue_applicable_events(site, nowtime, last, queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 129, in enqueue_applicable_events
+    trigger_if_enabled(site, event, last, queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 122, in trigger_if_enabled
+    trigger(site, event, last, queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 147, in trigger
+    events_from_hooks = get_scheduler_events(event)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 179, in get_scheduler_events
+    scheduler_events = frappe.get_hooks("scheduler_events")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 966, in get_hooks
+    hooks = _dict(load_app_hooks())
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 945, in load_app_hooks
+    app_hooks = get_module(app + ".hooks")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/library_management/library_management/hooks.py", line 106
+    "monthly": [
+            ^
+SyntaxError: invalid syntax
+
+[ERROR] 2020-11-27 12:33:11,205 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Exception in Enqueue Events for Site library.test
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events_for_site
+    enqueue_events(site=site, queued_jobs=queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 111, in enqueue_events
+    out = enqueue_applicable_events(site, nowtime, last, queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 129, in enqueue_applicable_events
+    trigger_if_enabled(site, event, last, queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 122, in trigger_if_enabled
+    trigger(site, event, last, queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 147, in trigger
+    events_from_hooks = get_scheduler_events(event)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 179, in get_scheduler_events
+    scheduler_events = frappe.get_hooks("scheduler_events")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 966, in get_hooks
+    hooks = _dict(load_app_hooks())
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 945, in load_app_hooks
+    app_hooks = get_module(app + ".hooks")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/library_management/library_management/hooks.py", line 106
+    "monthly": [
+            ^
+SyntaxError: invalid syntax
+
+[ERROR] 2020-11-27 12:34:11,357 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Exception in Enqueue Events for Site library.test
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events_for_site
+    enqueue_events(site=site, queued_jobs=queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 111, in enqueue_events
+    out = enqueue_applicable_events(site, nowtime, last, queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 129, in enqueue_applicable_events
+    trigger_if_enabled(site, event, last, queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 122, in trigger_if_enabled
+    trigger(site, event, last, queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 147, in trigger
+    events_from_hooks = get_scheduler_events(event)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 179, in get_scheduler_events
+    scheduler_events = frappe.get_hooks("scheduler_events")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 966, in get_hooks
+    hooks = _dict(load_app_hooks())
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 945, in load_app_hooks
+    app_hooks = get_module(app + ".hooks")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/library_management/library_management/hooks.py", line 106
+    "monthly": [
+            ^
+SyntaxError: invalid syntax
+
+[ERROR] 2020-11-27 12:35:11,464 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Exception in Enqueue Events for Site library.test
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events_for_site
+    enqueue_events(site=site, queued_jobs=queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 111, in enqueue_events
+    out = enqueue_applicable_events(site, nowtime, last, queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 129, in enqueue_applicable_events
+    trigger_if_enabled(site, event, last, queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 122, in trigger_if_enabled
+    trigger(site, event, last, queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 147, in trigger
+    events_from_hooks = get_scheduler_events(event)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 179, in get_scheduler_events
+    scheduler_events = frappe.get_hooks("scheduler_events")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 966, in get_hooks
+    hooks = _dict(load_app_hooks())
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 945, in load_app_hooks
+    app_hooks = get_module(app + ".hooks")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/library_management/library_management/hooks.py", line 106
+    "monthly": [
+            ^
+SyntaxError: invalid syntax
+
+[ERROR] 2020-11-27 12:36:11,558 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Exception in Enqueue Events for Site library.test
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events_for_site
+    enqueue_events(site=site, queued_jobs=queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 111, in enqueue_events
+    out = enqueue_applicable_events(site, nowtime, last, queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 129, in enqueue_applicable_events
+    trigger_if_enabled(site, event, last, queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 122, in trigger_if_enabled
+    trigger(site, event, last, queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 147, in trigger
+    events_from_hooks = get_scheduler_events(event)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 179, in get_scheduler_events
+    scheduler_events = frappe.get_hooks("scheduler_events")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 966, in get_hooks
+    hooks = _dict(load_app_hooks())
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 945, in load_app_hooks
+    app_hooks = get_module(app + ".hooks")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/library_management/library_management/hooks.py", line 106
+    "monthly": [
+            ^
+SyntaxError: invalid syntax
+
+[ERROR] 2020-11-27 12:37:11,659 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Exception in Enqueue Events for Site library.test
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events_for_site
+    enqueue_events(site=site, queued_jobs=queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 111, in enqueue_events
+    out = enqueue_applicable_events(site, nowtime, last, queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 129, in enqueue_applicable_events
+    trigger_if_enabled(site, event, last, queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 122, in trigger_if_enabled
+    trigger(site, event, last, queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 147, in trigger
+    events_from_hooks = get_scheduler_events(event)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 179, in get_scheduler_events
+    scheduler_events = frappe.get_hooks("scheduler_events")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 966, in get_hooks
+    hooks = _dict(load_app_hooks())
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 945, in load_app_hooks
+    app_hooks = get_module(app + ".hooks")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/library_management/library_management/hooks.py", line 106
+    "monthly": [
+            ^
+SyntaxError: invalid syntax
+
+[ERROR] 2020-11-27 12:38:11,760 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Exception in Enqueue Events for Site library.test
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events_for_site
+    enqueue_events(site=site, queued_jobs=queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 111, in enqueue_events
+    out = enqueue_applicable_events(site, nowtime, last, queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 129, in enqueue_applicable_events
+    trigger_if_enabled(site, event, last, queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 122, in trigger_if_enabled
+    trigger(site, event, last, queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 147, in trigger
+    events_from_hooks = get_scheduler_events(event)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 179, in get_scheduler_events
+    scheduler_events = frappe.get_hooks("scheduler_events")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 966, in get_hooks
+    hooks = _dict(load_app_hooks())
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 945, in load_app_hooks
+    app_hooks = get_module(app + ".hooks")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/library_management/library_management/hooks.py", line 106
+    "monthly": [
+            ^
+SyntaxError: invalid syntax
+
+[ERROR] 2020-11-27 12:39:11,863 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Exception in Enqueue Events for Site library.test
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events_for_site
+    enqueue_events(site=site, queued_jobs=queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 111, in enqueue_events
+    out = enqueue_applicable_events(site, nowtime, last, queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 129, in enqueue_applicable_events
+    trigger_if_enabled(site, event, last, queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 122, in trigger_if_enabled
+    trigger(site, event, last, queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 147, in trigger
+    events_from_hooks = get_scheduler_events(event)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 179, in get_scheduler_events
+    scheduler_events = frappe.get_hooks("scheduler_events")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 966, in get_hooks
+    hooks = _dict(load_app_hooks())
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 945, in load_app_hooks
+    app_hooks = get_module(app + ".hooks")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/library_management/library_management/hooks.py", line 106
+    "monthly": [
+            ^
+SyntaxError: invalid syntax
+
+[ERROR] 2020-11-27 12:40:11,973 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Exception in Enqueue Events for Site library.test
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events_for_site
+    enqueue_events(site=site, queued_jobs=queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 111, in enqueue_events
+    out = enqueue_applicable_events(site, nowtime, last, queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 129, in enqueue_applicable_events
+    trigger_if_enabled(site, event, last, queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 122, in trigger_if_enabled
+    trigger(site, event, last, queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 147, in trigger
+    events_from_hooks = get_scheduler_events(event)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 179, in get_scheduler_events
+    scheduler_events = frappe.get_hooks("scheduler_events")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 966, in get_hooks
+    hooks = _dict(load_app_hooks())
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 945, in load_app_hooks
+    app_hooks = get_module(app + ".hooks")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/library_management/library_management/hooks.py", line 106
+    "monthly": [
+            ^
+SyntaxError: invalid syntax
+
+[ERROR] 2020-11-27 12:41:12,072 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Exception in Enqueue Events for Site library.test
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 84, in enqueue_events_for_site
+    enqueue_events(site=site, queued_jobs=queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 111, in enqueue_events
+    out = enqueue_applicable_events(site, nowtime, last, queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 129, in enqueue_applicable_events
+    trigger_if_enabled(site, event, last, queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 122, in trigger_if_enabled
+    trigger(site, event, last, queued_jobs)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 147, in trigger
+    events_from_hooks = get_scheduler_events(event)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py", line 179, in get_scheduler_events
+    scheduler_events = frappe.get_hooks("scheduler_events")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 966, in get_hooks
+    hooks = _dict(load_app_hooks())
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 945, in load_app_hooks
+    app_hooks = get_module(app + ".hooks")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/library_management/library_management/hooks.py", line 106
+    "monthly": [
+            ^
+SyntaxError: invalid syntax
+
+[ERROR] 2020-11-27 12:41:37,276 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: library.test
+Form Dict: {
+ "cmd": "frappe.desk.moduleview.get",
+ "module": "Core"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
+    response = frappe.api.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 39, in execute_cmd
+    for hook in frappe.get_hooks("override_whitelisted_methods", {}).get(cmd, []):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 966, in get_hooks
+    hooks = _dict(load_app_hooks())
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 945, in load_app_hooks
+    app_hooks = get_module(app + ".hooks")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/library_management/library_management/hooks.py", line 106
+    "monthly": [
+            ^
+SyntaxError: invalid syntax
+[ERROR] 2020-11-27 12:41:37,422 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-27 12:41:37.277493-127.0.0.1-211
+[ERROR] 2020-11-27 12:41:47,252 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: library.test
+Form Dict: {
+ "cmd": "frappe.deferred_insert.deferred_insert",
+ "doctype": "Route History",
+ "records": "[{\"user\":\"Administrator\",\"creation\":\"2020-11-27 12:41:37\",\"route\":\"modules/Core\"}]"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
+    response = frappe.api.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 39, in execute_cmd
+    for hook in frappe.get_hooks("override_whitelisted_methods", {}).get(cmd, []):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 966, in get_hooks
+    hooks = _dict(load_app_hooks())
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 945, in load_app_hooks
+    app_hooks = get_module(app + ".hooks")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/library_management/library_management/hooks.py", line 106
+    "monthly": [
+            ^
+SyntaxError: invalid syntax
+[ERROR] 2020-11-27 12:41:47,288 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-27 12:41:47.253414-127.0.0.1-75d
+[DEBUG] 2020-11-27 12:42:12,172 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 12:43:12,282 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 12:44:12,405 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 12:45:12,541 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 12:46:12,676 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 12:47:12,804 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 12:48:12,940 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 12:49:13,056 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 12:50:13,163 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 12:51:13,270 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 12:52:13,444 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 12:53:13,555 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 12:54:13,667 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 12:55:13,764 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 12:56:13,881 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 12:57:14,019 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 12:58:14,145 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 12:59:14,276 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:00:14,465 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:01:14,593 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:02:14,733 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:03:14,846 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:04:15,001 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:05:15,137 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:06:15,263 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:07:15,379 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:08:15,501 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:09:15,614 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:10:15,759 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:11:15,883 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:12:16,013 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:13:16,139 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:14:16,238 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:15:16,365 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:16:16,549 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:17:16,678 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:18:16,784 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:19:16,941 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:20:17,161 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:21:17,293 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:22:17,440 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:23:17,555 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:24:17,702 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:25:17,837 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:26:17,950 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:27:18,093 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:28:18,247 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:29:18,383 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:30:18,525 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[ERROR] 2020-11-27 13:31:22,651 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: library.test
+Form Dict: {
+ "cmd": "frappe.realtime.get_user_info"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
+    response = frappe.api.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
+    return fn(*args, **newargs)
+TypeError: get_user_info() missing 1 required positional argument: 'sid'
+[ERROR] 2020-11-27 13:31:22,815 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-27 13:31:22.652104-127.0.0.1-ec6
+[DEBUG] 2020-11-27 13:32:21,603 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:33:21,714 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:34:21,856 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:35:22,004 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:36:22,175 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:37:22,300 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:38:22,448 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:39:22,570 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:40:22,711 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:41:22,858 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:42:22,964 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:43:23,116 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:44:23,264 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:45:23,375 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:46:23,528 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:47:23,665 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:48:23,797 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:49:23,923 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:50:24,046 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:51:24,172 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:52:24,306 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:53:24,454 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:54:24,612 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:55:24,748 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:56:24,934 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:57:25,068 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:58:25,203 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 13:59:25,329 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:00:25,488 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:01:25,634 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:02:25,788 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:06:26,162 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:07:26,330 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:08:26,443 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:09:26,553 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:10:26,667 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:11:26,794 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:12:26,978 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:13:27,117 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:14:27,266 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:15:27,417 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:16:27,565 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:17:27,693 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:18:27,843 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:19:27,984 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:20:28,129 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:21:28,255 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:22:28,370 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:23:28,490 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:24:28,653 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:25:28,782 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:26:28,908 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:27:29,103 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:28:29,251 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:29:29,403 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:30:29,540 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:31:29,679 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:32:29,819 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:33:29,956 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:34:30,099 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:35:30,265 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:36:30,427 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[ERROR] 2020-11-27 14:37:05,643 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: library.test
+Form Dict: {
+ "cmd": "frappe.client.get_js",
+ "items": "[\"/assets/js/modules.min.js\"]"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
+    response = frappe.api.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 39, in execute_cmd
+    for hook in frappe.get_hooks("override_whitelisted_methods", {}).get(cmd, []):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 966, in get_hooks
+    hooks = _dict(load_app_hooks())
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 945, in load_app_hooks
+    app_hooks = get_module(app + ".hooks")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/library_management/library_management/hooks.py", line 136
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[ERROR] 2020-11-27 14:37:05,743 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-27 14:37:05.644228-127.0.0.1-75c
+[ERROR] 2020-11-27 14:37:15,660 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: library.test
+Form Dict: {
+ "cmd": "frappe.deferred_insert.deferred_insert",
+ "doctype": "Route History",
+ "records": "[{\"user\":\"Administrator\",\"creation\":\"2020-11-27 14:37:05\",\"route\":\"modules/Core\"}]"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
+    response = frappe.api.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 39, in execute_cmd
+    for hook in frappe.get_hooks("override_whitelisted_methods", {}).get(cmd, []):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 966, in get_hooks
+    hooks = _dict(load_app_hooks())
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 945, in load_app_hooks
+    app_hooks = get_module(app + ".hooks")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/library_management/library_management/hooks.py", line 136
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[ERROR] 2020-11-27 14:37:15,692 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-27 14:37:15.660674-127.0.0.1-bec
+[DEBUG] 2020-11-27 14:37:30,534 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[ERROR] 2020-11-27 14:37:43,452 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: library.test
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 73, in application
+    response = frappe.website.render.render()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/website/render.py", line 36, in render
+    resolve_redirect(path)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/website/redirect.py", line 23, in resolve_redirect
+    redirects = frappe.get_hooks('website_redirects')
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 966, in get_hooks
+    hooks = _dict(load_app_hooks())
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 945, in load_app_hooks
+    app_hooks = get_module(app + ".hooks")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/library_management/library_management/hooks.py", line 136
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[ERROR] 2020-11-27 14:37:43,544 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-27 14:37:43.453099-127.0.0.1-8d0
+[ERROR] 2020-11-27 14:38:01,153 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: library.test
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 73, in application
+    response = frappe.website.render.render()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/website/render.py", line 36, in render
+    resolve_redirect(path)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/website/redirect.py", line 23, in resolve_redirect
+    redirects = frappe.get_hooks('website_redirects')
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 966, in get_hooks
+    hooks = _dict(load_app_hooks())
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 945, in load_app_hooks
+    app_hooks = get_module(app + ".hooks")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/library_management/library_management/hooks.py", line 136
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[ERROR] 2020-11-27 14:38:01,179 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-27 14:38:01.153768-127.0.0.1-279
+[ERROR] 2020-11-27 14:38:01,932 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: library.test
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 73, in application
+    response = frappe.website.render.render()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/website/render.py", line 36, in render
+    resolve_redirect(path)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/website/redirect.py", line 23, in resolve_redirect
+    redirects = frappe.get_hooks('website_redirects')
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 966, in get_hooks
+    hooks = _dict(load_app_hooks())
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 945, in load_app_hooks
+    app_hooks = get_module(app + ".hooks")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/library_management/library_management/hooks.py", line 136
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[ERROR] 2020-11-27 14:38:01,957 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-27 14:38:01.933265-127.0.0.1-d95
+[ERROR] 2020-11-27 14:38:02,224 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: library.test
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 73, in application
+    response = frappe.website.render.render()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/website/render.py", line 36, in render
+    resolve_redirect(path)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/website/redirect.py", line 23, in resolve_redirect
+    redirects = frappe.get_hooks('website_redirects')
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 966, in get_hooks
+    hooks = _dict(load_app_hooks())
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 945, in load_app_hooks
+    app_hooks = get_module(app + ".hooks")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/library_management/library_management/hooks.py", line 136
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[ERROR] 2020-11-27 14:38:02,252 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-27 14:38:02.224589-127.0.0.1-d0e
+[ERROR] 2020-11-27 14:38:02,406 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: library.test
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 73, in application
+    response = frappe.website.render.render()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/website/render.py", line 36, in render
+    resolve_redirect(path)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/website/redirect.py", line 23, in resolve_redirect
+    redirects = frappe.get_hooks('website_redirects')
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 966, in get_hooks
+    hooks = _dict(load_app_hooks())
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 945, in load_app_hooks
+    app_hooks = get_module(app + ".hooks")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/library_management/library_management/hooks.py", line 136
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[ERROR] 2020-11-27 14:38:02,434 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-27 14:38:02.407095-127.0.0.1-ff5
+[ERROR] 2020-11-27 14:38:02,603 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: library.test
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 73, in application
+    response = frappe.website.render.render()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/website/render.py", line 36, in render
+    resolve_redirect(path)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/website/redirect.py", line 23, in resolve_redirect
+    redirects = frappe.get_hooks('website_redirects')
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 966, in get_hooks
+    hooks = _dict(load_app_hooks())
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 945, in load_app_hooks
+    app_hooks = get_module(app + ".hooks")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/library_management/library_management/hooks.py", line 136
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[ERROR] 2020-11-27 14:38:02,629 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-27 14:38:02.604195-127.0.0.1-9c1
+[ERROR] 2020-11-27 14:38:02,816 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: library.test
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 73, in application
+    response = frappe.website.render.render()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/website/render.py", line 36, in render
+    resolve_redirect(path)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/website/redirect.py", line 23, in resolve_redirect
+    redirects = frappe.get_hooks('website_redirects')
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 966, in get_hooks
+    hooks = _dict(load_app_hooks())
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 945, in load_app_hooks
+    app_hooks = get_module(app + ".hooks")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/library_management/library_management/hooks.py", line 136
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[ERROR] 2020-11-27 14:38:02,840 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-27 14:38:02.817035-127.0.0.1-12e
+[DEBUG] 2020-11-27 14:38:30,679 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:39:30,830 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[ERROR] 2020-11-27 14:39:55,585 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: library.test
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 73, in application
+    response = frappe.website.render.render()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/website/render.py", line 36, in render
+    resolve_redirect(path)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/website/redirect.py", line 23, in resolve_redirect
+    redirects = frappe.get_hooks('website_redirects')
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 966, in get_hooks
+    hooks = _dict(load_app_hooks())
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 945, in load_app_hooks
+    app_hooks = get_module(app + ".hooks")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/library_management/library_management/hooks.py", line 136
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[ERROR] 2020-11-27 14:39:55,676 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-27 14:39:55.585442-127.0.0.1-356
+[ERROR] 2020-11-27 14:39:56,578 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: library.test
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 73, in application
+    response = frappe.website.render.render()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/website/render.py", line 36, in render
+    resolve_redirect(path)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/website/redirect.py", line 23, in resolve_redirect
+    redirects = frappe.get_hooks('website_redirects')
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 966, in get_hooks
+    hooks = _dict(load_app_hooks())
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 945, in load_app_hooks
+    app_hooks = get_module(app + ".hooks")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/library_management/library_management/hooks.py", line 136
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[ERROR] 2020-11-27 14:39:56,607 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-27 14:39:56.579180-127.0.0.1-41a
+[ERROR] 2020-11-27 14:39:57,111 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: library.test
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 73, in application
+    response = frappe.website.render.render()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/website/render.py", line 36, in render
+    resolve_redirect(path)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/website/redirect.py", line 23, in resolve_redirect
+    redirects = frappe.get_hooks('website_redirects')
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 966, in get_hooks
+    hooks = _dict(load_app_hooks())
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 945, in load_app_hooks
+    app_hooks = get_module(app + ".hooks")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/library_management/library_management/hooks.py", line 136
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[ERROR] 2020-11-27 14:39:57,135 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-27 14:39:57.111710-127.0.0.1-811
+[ERROR] 2020-11-27 14:39:57,357 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: library.test
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 73, in application
+    response = frappe.website.render.render()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/website/render.py", line 36, in render
+    resolve_redirect(path)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/website/redirect.py", line 23, in resolve_redirect
+    redirects = frappe.get_hooks('website_redirects')
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 966, in get_hooks
+    hooks = _dict(load_app_hooks())
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 945, in load_app_hooks
+    app_hooks = get_module(app + ".hooks")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/library_management/library_management/hooks.py", line 136
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[ERROR] 2020-11-27 14:39:57,385 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-27 14:39:57.357857-127.0.0.1-d74
+[ERROR] 2020-11-27 14:39:57,708 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: library.test
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 73, in application
+    response = frappe.website.render.render()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/website/render.py", line 36, in render
+    resolve_redirect(path)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/website/redirect.py", line 23, in resolve_redirect
+    redirects = frappe.get_hooks('website_redirects')
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 966, in get_hooks
+    hooks = _dict(load_app_hooks())
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 945, in load_app_hooks
+    app_hooks = get_module(app + ".hooks")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/library_management/library_management/hooks.py", line 136
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[ERROR] 2020-11-27 14:39:57,733 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-27 14:39:57.708791-127.0.0.1-887
+[ERROR] 2020-11-27 14:39:57,932 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: library.test
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 73, in application
+    response = frappe.website.render.render()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/website/render.py", line 36, in render
+    resolve_redirect(path)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/website/redirect.py", line 23, in resolve_redirect
+    redirects = frappe.get_hooks('website_redirects')
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 966, in get_hooks
+    hooks = _dict(load_app_hooks())
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 945, in load_app_hooks
+    app_hooks = get_module(app + ".hooks")
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/library_management/library_management/hooks.py", line 136
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[ERROR] 2020-11-27 14:39:57,955 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-27 14:39:57.933225-127.0.0.1-627
+[DEBUG] 2020-11-27 14:40:30,980 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:41:31,105 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:42:31,242 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:43:31,377 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:44:31,520 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:45:31,651 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:46:31,797 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:47:31,945 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:48:32,132 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:49:32,256 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:50:32,375 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:51:32,534 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:52:32,697 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:53:32,842 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:54:32,994 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:55:33,110 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:56:33,240 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:57:33,391 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:58:33,535 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 14:59:33,677 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 15:00:33,821 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[ERROR] 2020-11-27 15:00:44,222 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: library.test
+Form Dict: {
+ "cmd": "frappe.realtime.get_user_info"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
+    response = frappe.api.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
+    return fn(*args, **newargs)
+TypeError: get_user_info() missing 1 required positional argument: 'sid'
+[ERROR] 2020-11-27 15:00:44,376 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-27 15:00:44.222744-127.0.0.1-03e
+[ERROR] 2020-11-27 15:01:47,672 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: library.test
+Form Dict: {
+ "cmd": "frappe.realtime.get_user_info"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
+    response = frappe.api.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
+    return fn(*args, **newargs)
+TypeError: get_user_info() missing 1 required positional argument: 'sid'
+[ERROR] 2020-11-27 15:01:47,858 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-27 15:01:47.672867-127.0.0.1-4fe
+[DEBUG] 2020-11-27 15:02:46,921 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 15:03:47,074 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 15:04:47,216 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 15:05:47,341 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[ERROR] 2020-11-27 15:06:01,845 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: library.test
+Form Dict: {
+ "cmd": "frappe.realtime.get_user_info"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
+    response = frappe.api.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
+    return fn(*args, **newargs)
+TypeError: get_user_info() missing 1 required positional argument: 'sid'
+[ERROR] 2020-11-27 15:06:01,924 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-27 15:06:01.845937-127.0.0.1-681
+[DEBUG] 2020-11-27 15:07:00,609 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 15:08:00,764 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 15:12:07,248 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 15:13:15,348 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[ERROR] 2020-11-27 15:14:12,574 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: library.test
+Form Dict: {
+ "cmd": "frappe.realtime.get_user_info"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
+    response = frappe.api.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
+    return fn(*args, **newargs)
+TypeError: get_user_info() missing 1 required positional argument: 'sid'
+[ERROR] 2020-11-27 15:14:12,657 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-27 15:14:12.575276-127.0.0.1-685
+[DEBUG] 2020-11-27 15:15:09,525 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 15:16:09,661 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-27 15:17:09,817 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
