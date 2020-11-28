@@ -769,3 +769,278 @@ Queued events for site library.test
 [DEBUG] 2020-11-28 09:40:47,188 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
+[ERROR] 2020-11-28 10:02:43,715 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: library.test
+Form Dict: {
+ "cmd": "frappe.realtime.get_user_info"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
+    response = frappe.api.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
+    return fn(*args, **newargs)
+TypeError: get_user_info() missing 1 required positional argument: 'sid'
+[ERROR] 2020-11-28 10:02:43,801 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-28 10:02:43.715571-127.0.0.1-9a7
+[DEBUG] 2020-11-28 10:03:42,625 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-28 10:04:42,812 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-28 10:05:42,948 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-28 10:06:43,086 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-28 10:07:43,237 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-28 10:08:43,359 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-28 10:09:43,465 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[ERROR] 2020-11-28 10:10:36,491 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: library.test
+Form Dict: {
+ "cmd": "frappe.realtime.get_user_info"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
+    response = frappe.api.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
+    return fn(*args, **newargs)
+TypeError: get_user_info() missing 1 required positional argument: 'sid'
+[ERROR] 2020-11-28 10:10:36,636 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-28 10:10:36.491978-127.0.0.1-fcd
+[DEBUG] 2020-11-28 10:11:35,542 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[ERROR] 2020-11-28 10:12:08,706 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: library.test
+Form Dict: {
+ "cmd": "frappe.realtime.get_user_info"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
+    response = frappe.api.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
+    return fn(*args, **newargs)
+TypeError: get_user_info() missing 1 required positional argument: 'sid'
+[ERROR] 2020-11-28 10:12:08,880 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-28 10:12:08.707509-127.0.0.1-b51
+[DEBUG] 2020-11-28 10:13:08,069 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-28 10:14:08,228 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-28 10:15:08,359 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[ERROR] 2020-11-28 10:16:17,167 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: library.test
+Form Dict: {
+ "cmd": "frappe.realtime.get_user_info"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
+    response = frappe.api.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
+    return fn(*args, **newargs)
+TypeError: get_user_info() missing 1 required positional argument: 'sid'
+[ERROR] 2020-11-28 10:16:17,354 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-28 10:16:17.167625-127.0.0.1-eb9
+[DEBUG] 2020-11-28 10:17:16,158 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[ERROR] 2020-11-28 10:18:12,876 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: library.test
+Form Dict: {
+ "cmd": "frappe.realtime.get_user_info"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
+    response = frappe.api.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
+    return fn(*args, **newargs)
+TypeError: get_user_info() missing 1 required positional argument: 'sid'
+[ERROR] 2020-11-28 10:18:13,025 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-28 10:18:12.876543-127.0.0.1-b58
+[DEBUG] 2020-11-28 10:19:11,919 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-28 10:20:12,106 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-28 10:21:12,231 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[ERROR] 2020-11-28 10:21:25,314 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: library.test
+Form Dict: {
+ "cmd": "frappe.realtime.get_user_info"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
+    response = frappe.api.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
+    return fn(*args, **newargs)
+TypeError: get_user_info() missing 1 required positional argument: 'sid'
+[ERROR] 2020-11-28 10:21:25,485 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-28 10:21:25.315227-127.0.0.1-98f
+[DEBUG] 2020-11-28 10:22:24,241 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-28 10:23:24,401 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[ERROR] 2020-11-28 10:24:14,623 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: library.test
+Form Dict: {
+ "cmd": "frappe.realtime.get_user_info"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
+    response = frappe.api.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
+    return fn(*args, **newargs)
+TypeError: get_user_info() missing 1 required positional argument: 'sid'
+[ERROR] 2020-11-28 10:24:14,695 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-28 10:24:14.623557-127.0.0.1-892
+[DEBUG] 2020-11-28 10:25:12,612 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[ERROR] 2020-11-28 10:25:41,680 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: library.test
+Form Dict: {
+ "cmd": "frappe.realtime.get_user_info"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
+    response = frappe.api.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
+    return fn(*args, **newargs)
+TypeError: get_user_info() missing 1 required positional argument: 'sid'
+[ERROR] 2020-11-28 10:25:41,829 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-28 10:25:41.681225-127.0.0.1-92a
+[DEBUG] 2020-11-28 10:26:40,776 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-28 10:27:40,889 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[ERROR] 2020-11-28 10:27:51,944 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: library.test
+Form Dict: {
+ "cmd": "frappe.realtime.get_user_info"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
+    response = frappe.api.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
+    return fn(*args, **newargs)
+TypeError: get_user_info() missing 1 required positional argument: 'sid'
+[ERROR] 2020-11-28 10:27:52,117 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-28 10:27:51.944946-127.0.0.1-b96
+[DEBUG] 2020-11-28 10:28:51,103 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-28 10:29:51,258 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-28 10:30:51,424 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[ERROR] 2020-11-28 10:31:15,889 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+Site: library.test
+Form Dict: {
+ "cmd": "frappe.realtime.get_user_info"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
+    response = frappe.api.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
+    return fn(*args, **newargs)
+TypeError: get_user_info() missing 1 required positional argument: 'sid'
+[ERROR] 2020-11-28 10:31:16,093 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-11-28 10:31:15.890080-127.0.0.1-4aa
+[DEBUG] 2020-11-28 10:32:14,799 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-11-28 10:33:14,926 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
