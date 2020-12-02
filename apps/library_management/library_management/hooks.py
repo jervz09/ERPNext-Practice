@@ -19,8 +19,8 @@ app_license = "MIT"
 # app_include_js = "/assets/library_management/js/library_management.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/library_management/css/library_management.css"
-# web_include_js = "/assets/library_management/js/library_management.js"
+web_include_css = "/assets/library_management/css/library_management.css"
+web_include_js = "/assets/library_management/js/library_management.js"
 
 # include js in page
 # page_js = {"page" : "public/js/file.js"}
@@ -80,11 +80,9 @@ app_license = "MIT"
 # Hook on document methods and events
 
 # doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-#	}
+# 	"Library Management": {
+# 		"get_logged_user": "library_management.custom_api.api_library.get_logged_user",
+# 	}
 # }
 
 # Scheduled Tasks
@@ -107,9 +105,9 @@ scheduler_events = {
     # 	"library_management.scheduler_task.monthly"
     # ],
     "cron": {
-        "0/1 * * * *": [
-            "library_management.scheduler_task.daily",
-            "library_management.scheduler_task.dailyOne",
+        "0/10 * * * *": [
+            # "library_management.scheduler_task.daily",
+            # "library_management.scheduler_task.dailyOne",
             "library_management.task.daily"
         ],
     }
@@ -133,3 +131,8 @@ scheduler_events = {
 # override_doctype_dashboards = {
 # 	"Task": "library_management.task.get_dashboard_data"
 # }
+
+
+# website_route_rules = [
+#     {"from_route": "/custom_api/get_context", "to_route": "library_management/custom_api/api_library"},
+# ]

@@ -2,6 +2,8 @@ from __future__ import unicode_literals
 import frappe
 from frappe.utils import date_diff, nowdate, formatdate, add_days
 import logging
+import csv
+
 
 logging.basicConfig(level=logging.INFO)
 
@@ -29,6 +31,7 @@ def daily():
 
         frappe.log_error(member, "Third Logging")
         frappe.log_error(items, "Third Logging")
+
 
         for i in items:
             content += "<li>{0} ({1}) due on {2}</li>".format(i.name,

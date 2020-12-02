@@ -1,394 +1,88 @@
-[DEBUG] 2020-11-28 06:13:10,047 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 16:10:39,271 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 06:14:10,181 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 16:11:39,429 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 06:15:10,323 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 16:12:39,564 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 06:16:10,482 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 16:13:39,687 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 06:17:10,607 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 16:14:39,841 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 06:18:10,731 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 16:15:39,999 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 06:19:10,861 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 16:16:40,132 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 06:20:11,004 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 16:17:40,257 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 06:21:11,146 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 16:18:40,392 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 06:22:11,264 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 16:19:40,551 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 06:23:11,417 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 16:20:40,739 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 06:24:11,559 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 16:21:40,885 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 06:25:11,690 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 16:22:41,027 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 06:26:11,842 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 16:23:41,162 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 06:27:11,984 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 16:24:41,303 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 06:28:12,118 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 16:25:41,418 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 06:29:12,252 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 16:26:41,572 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 06:30:12,394 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 16:27:41,701 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 06:31:12,516 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 16:28:41,837 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 06:32:12,643 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 16:29:41,980 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 06:33:12,788 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 16:30:42,100 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 06:34:12,968 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 16:31:42,240 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 06:35:13,097 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 16:32:42,416 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 06:36:13,249 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 16:33:42,518 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 06:37:13,381 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 16:34:42,664 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 06:38:13,528 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 16:35:42,784 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 06:39:13,682 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 16:36:42,973 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 06:40:13,817 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 06:41:13,937 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 06:42:14,075 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 06:43:14,206 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 06:44:14,353 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 06:45:14,485 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 06:46:14,607 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 06:47:14,754 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 06:48:14,892 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 06:49:15,013 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 06:50:15,126 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 06:51:15,268 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 06:52:15,413 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 06:53:15,565 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 06:54:15,678 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 06:55:15,795 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 06:56:15,946 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 06:57:16,090 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 06:58:16,222 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 06:59:16,381 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:00:16,529 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:01:16,655 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:02:16,777 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:03:16,927 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:04:17,072 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:05:17,191 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:06:17,345 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:07:17,477 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:08:17,622 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:09:17,752 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:10:17,877 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:11:18,013 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:12:18,159 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:13:18,303 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:14:18,438 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:15:18,555 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:16:18,682 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:17:18,807 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:18:18,932 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:19:19,081 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:20:19,215 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:21:19,370 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:22:19,555 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:23:19,677 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:24:19,859 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:25:19,989 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:26:20,110 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:27:20,237 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:28:20,374 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:29:20,493 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:30:20,623 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:31:20,747 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:32:20,896 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:33:21,044 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:34:21,167 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:35:21,348 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:36:21,495 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:37:21,635 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:38:21,785 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:39:21,923 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:40:22,066 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:41:22,189 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:42:22,299 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:43:22,453 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:44:22,596 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:45:22,737 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:46:22,877 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:47:22,995 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:48:23,143 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:49:23,282 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:50:23,400 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:51:23,528 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:52:23,665 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:53:23,793 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:54:23,924 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:55:24,031 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:56:24,186 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:57:24,350 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:58:24,486 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 07:59:24,661 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 08:00:24,839 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 08:01:25,112 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 08:02:25,304 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 08:03:25,428 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 08:04:25,577 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 08:05:25,703 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 08:06:25,830 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 08:07:25,956 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 08:08:26,093 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 08:09:26,214 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 08:10:26,358 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 08:11:26,494 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 08:12:26,637 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 08:13:26,751 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 08:14:26,875 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 08:15:27,023 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 08:16:27,152 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 08:17:27,265 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 08:18:27,422 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 08:19:27,532 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 08:20:27,675 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 08:21:27,825 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[ERROR] 2020-11-28 08:23:33,255 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+[ERROR] 2020-12-02 16:37:09,422 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
 Site: library.test
 Form Dict: {
- "cmd": "frappe.realtime.get_user_info"
+ "cmd": "library_management.custom_api.api_library.show_article"
 }
 Request Error
 Traceback (most recent call last):
@@ -398,38 +92,36 @@ Traceback (most recent call last):
     return frappe.handler.handle()
   File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
     data = execute_cmd(cmd)
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
-    return frappe.call(method, **frappe.form_dict)
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
-    return fn(*args, **newargs)
-TypeError: get_user_info() missing 1 required positional argument: 'sid'
-[ERROR] 2020-11-28 08:23:33,442 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
-New Exception collected with id: 2020-11-28 08:23:33.255543-127.0.0.1-47e
-[DEBUG] 2020-11-28 08:24:32,406 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 52, in execute_cmd
+    raise e
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 49, in execute_cmd
+    method = get_attr(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 214, in get_attr
+    method = frappe.get_attr(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1055, in get_attr
+    return getattr(get_module(modulename), methodname)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/library_management/library_management/custom_api/api_library.py", line 3, in <module>
+    import retrieve_class
+ImportError: No module named 'retrieve_class'
+[ERROR] 2020-12-02 16:37:09,510 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-12-02 16:37:09.422521-127.0.0.1-f7a
+[DEBUG] 2020-12-02 16:37:43,104 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 08:25:32,535 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 08:26:32,668 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 08:27:32,800 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 08:29:28,663 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 08:30:28,830 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 08:31:28,960 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[ERROR] 2020-11-28 08:31:37,304 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+[ERROR] 2020-12-02 16:38:28,412 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
 Site: library.test
 Form Dict: {
- "cmd": "frappe.realtime.get_user_info"
+ "cmd": "library_management.custom_api.api_library.show_article"
 }
 Request Error
 Traceback (most recent call last):
@@ -439,23 +131,108 @@ Traceback (most recent call last):
     return frappe.handler.handle()
   File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
     data = execute_cmd(cmd)
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
-    return frappe.call(method, **frappe.form_dict)
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
-    return fn(*args, **newargs)
-TypeError: get_user_info() missing 1 required positional argument: 'sid'
-[ERROR] 2020-11-28 08:31:37,528 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
-New Exception collected with id: 2020-11-28 08:31:37.304888-127.0.0.1-585
-[DEBUG] 2020-11-28 08:32:36,251 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 52, in execute_cmd
+    raise e
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 49, in execute_cmd
+    method = get_attr(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 214, in get_attr
+    method = frappe.get_attr(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1055, in get_attr
+    return getattr(get_module(modulename), methodname)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/library_management/library_management/custom_api/api_library.py", line 3, in <module>
+    from retrieve_class import article_doc
+ImportError: No module named 'retrieve_class'
+[ERROR] 2020-12-02 16:38:28,542 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-12-02 16:38:28.413199-127.0.0.1-2ae
+[DEBUG] 2020-12-02 16:38:43,228 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 08:33:36,414 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 16:39:43,368 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[ERROR] 2020-11-28 08:34:18,449 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+[DEBUG] 2020-12-02 16:40:43,568 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-12-02 16:41:43,724 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-12-02 16:42:43,908 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-12-02 16:43:44,025 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-12-02 16:44:44,178 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-12-02 16:45:44,301 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-12-02 16:46:44,433 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-12-02 16:47:44,570 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-12-02 16:48:44,739 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-12-02 16:49:44,938 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-12-02 16:50:45,054 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-12-02 16:51:45,163 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-12-02 16:52:45,315 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-12-02 16:53:45,432 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-12-02 16:54:45,548 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-12-02 16:55:45,674 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-12-02 16:56:45,784 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-12-02 16:57:45,901 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-12-02 16:58:46,010 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-12-02 16:59:46,117 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-12-02 17:00:46,248 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-12-02 17:01:46,361 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-12-02 17:02:46,480 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[ERROR] 2020-12-02 17:03:42,728 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
 Site: library.test
 Form Dict: {
- "cmd": "frappe.realtime.get_user_info"
+ "cmd": "library_management.custom_api.api_library.show_article"
 }
 Request Error
 Traceback (most recent call last):
@@ -465,32 +242,36 @@ Traceback (most recent call last):
     return frappe.handler.handle()
   File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
     data = execute_cmd(cmd)
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
-    return frappe.call(method, **frappe.form_dict)
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
-    return fn(*args, **newargs)
-TypeError: get_user_info() missing 1 required positional argument: 'sid'
-[ERROR] 2020-11-28 08:34:18,528 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
-New Exception collected with id: 2020-11-28 08:34:18.450245-127.0.0.1-b0d
-[DEBUG] 2020-11-28 08:35:16,591 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 52, in execute_cmd
+    raise e
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 49, in execute_cmd
+    method = get_attr(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 214, in get_attr
+    method = frappe.get_attr(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1055, in get_attr
+    return getattr(get_module(modulename), methodname)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/library_management/library_management/custom_api/api_library.py", line 3, in <module>
+    from retrieve_class import article_doc
+ImportError: No module named 'retrieve_class'
+[ERROR] 2020-12-02 17:03:42,914 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-12-02 17:03:42.729303-127.0.0.1-0ee
+[DEBUG] 2020-12-02 17:03:46,621 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 08:36:16,747 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 08:37:16,897 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 08:38:17,022 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 08:39:17,132 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[ERROR] 2020-11-28 08:41:39,500 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+[ERROR] 2020-12-02 17:04:28,438 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
 Site: library.test
 Form Dict: {
- "cmd": "frappe.realtime.get_user_info"
+ "cmd": "library_management.custom_api.api_library.show_article"
 }
 Request Error
 Traceback (most recent call last):
@@ -500,23 +281,46 @@ Traceback (most recent call last):
     return frappe.handler.handle()
   File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
     data = execute_cmd(cmd)
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
-    return frappe.call(method, **frappe.form_dict)
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
-    return fn(*args, **newargs)
-TypeError: get_user_info() missing 1 required positional argument: 'sid'
-[ERROR] 2020-11-28 08:41:39,639 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
-New Exception collected with id: 2020-11-28 08:41:39.501045-127.0.0.1-2aa
-[DEBUG] 2020-11-28 08:42:38,956 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 52, in execute_cmd
+    raise e
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 49, in execute_cmd
+    method = get_attr(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 214, in get_attr
+    method = frappe.get_attr(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1055, in get_attr
+    return getattr(get_module(modulename), methodname)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/library_management/library_management/custom_api/api_library.py", line 3, in <module>
+    from retrieve_class import article_doc
+ImportError: No module named 'retrieve_class'
+[ERROR] 2020-12-02 17:04:28,532 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-12-02 17:04:28.439267-127.0.0.1-534
+[DEBUG] 2020-12-02 17:04:46,751 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 08:43:39,099 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 17:05:46,859 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[ERROR] 2020-11-28 08:44:45,163 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+[DEBUG] 2020-12-02 17:06:46,989 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2020-12-02 17:07:47,135 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[ERROR] 2020-12-02 17:08:33,593 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
 Site: library.test
 Form Dict: {
- "cmd": "frappe.realtime.get_user_info"
+ "_name": "test",
+ "cmd": "library_management.custom_api.api_library.retrieveData"
 }
 Request Error
 Traceback (most recent call last):
@@ -526,35 +330,40 @@ Traceback (most recent call last):
     return frappe.handler.handle()
   File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
     data = execute_cmd(cmd)
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
-    return frappe.call(method, **frappe.form_dict)
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
-    return fn(*args, **newargs)
-TypeError: get_user_info() missing 1 required positional argument: 'sid'
-[ERROR] 2020-11-28 08:44:45,336 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
-New Exception collected with id: 2020-11-28 08:44:45.164202-127.0.0.1-f5b
-[DEBUG] 2020-11-28 08:45:44,072 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 52, in execute_cmd
+    raise e
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 49, in execute_cmd
+    method = get_attr(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 214, in get_attr
+    method = frappe.get_attr(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1055, in get_attr
+    return getattr(get_module(modulename), methodname)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/library_management/library_management/custom_api/api_library.py", line 91
+    'article_name': _name or ""]
+                               ^
+SyntaxError: invalid syntax
+[ERROR] 2020-12-02 17:08:33,691 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-12-02 17:08:33.594025-127.0.0.1-2d5
+[DEBUG] 2020-12-02 17:08:47,272 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 08:46:44,216 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 08:47:44,341 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 08:48:44,521 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 08:49:44,649 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 08:50:44,784 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[ERROR] 2020-11-28 08:51:23,219 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
+[ERROR] 2020-12-02 17:09:06,625 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
 Site: library.test
 Form Dict: {
- "cmd": "frappe.realtime.get_user_info"
+ "_name": "test",
+ "cmd": "library_management.custom_api.api_library.retrieveData"
 }
 Request Error
 Traceback (most recent call last):
@@ -564,483 +373,119 @@ Traceback (most recent call last):
     return frappe.handler.handle()
   File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
     data = execute_cmd(cmd)
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
-    return frappe.call(method, **frappe.form_dict)
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
-    return fn(*args, **newargs)
-TypeError: get_user_info() missing 1 required positional argument: 'sid'
-[ERROR] 2020-11-28 08:51:23,386 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
-New Exception collected with id: 2020-11-28 08:51:23.219951-127.0.0.1-8d0
-[DEBUG] 2020-11-28 08:52:22,234 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 52, in execute_cmd
+    raise e
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 49, in execute_cmd
+    method = get_attr(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 214, in get_attr
+    method = frappe.get_attr(cmd)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1055, in get_attr
+    return getattr(get_module(modulename), methodname)
+  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 836, in get_module
+    return importlib.import_module(modulename)
+  File "/home/anotherguest/erpnext/projectName/env/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/anotherguest/erpnext/projectName/apps/library_management/library_management/custom_api/api_library.py", line 3, in <module>
+    from retrieve_class import article_doc
+ImportError: No module named 'retrieve_class'
+[ERROR] 2020-12-02 17:09:06,722 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2020-12-02 17:09:06.626004-127.0.0.1-965
+[DEBUG] 2020-12-02 17:09:47,372 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 08:53:22,368 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 17:10:47,509 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 08:54:22,471 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 17:11:47,623 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 08:55:22,639 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 17:12:47,778 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 08:56:22,798 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 17:13:47,891 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 08:57:22,907 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 17:14:47,996 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 08:58:23,038 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 17:15:48,122 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 08:59:23,143 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 17:16:48,257 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 09:00:23,313 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 17:17:48,367 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 09:01:23,417 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 17:18:48,471 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 09:02:23,531 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 17:19:48,571 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 09:03:23,703 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 17:20:48,692 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 09:04:23,910 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 17:21:48,791 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 09:05:24,041 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 17:22:48,897 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 09:06:24,173 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 17:23:49,008 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 09:07:24,313 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 17:24:49,170 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 09:08:24,468 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 17:25:49,309 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 09:09:24,572 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 17:26:49,455 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 09:10:24,737 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 17:27:49,571 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 09:11:24,914 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 17:28:49,700 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 09:12:25,052 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 17:29:49,815 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 09:13:25,168 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 17:30:49,915 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 09:14:25,320 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 17:31:50,012 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 09:15:25,454 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 17:32:50,159 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 09:16:25,584 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 17:33:50,303 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 09:17:25,693 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 17:34:50,450 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 09:18:25,805 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 17:35:50,573 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 09:19:25,941 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 17:36:50,696 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 09:20:26,070 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 17:37:50,799 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 09:21:26,233 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 17:38:50,910 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test
-[DEBUG] 2020-11-28 09:22:26,347 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[ERROR] 2020-11-28 09:22:54,670 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
-Site: library.test
-Form Dict: {
- "cmd": "frappe.realtime.get_user_info"
-}
-Request Error
-Traceback (most recent call last):
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
-    response = frappe.api.handle()
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
-    return frappe.handler.handle()
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
-    data = execute_cmd(cmd)
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
-    return frappe.call(method, **frappe.form_dict)
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
-    return fn(*args, **newargs)
-TypeError: get_user_info() missing 1 required positional argument: 'sid'
-[ERROR] 2020-11-28 09:22:55,824 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
-New Exception collected with id: 2020-11-28 09:22:54.679881-127.0.0.1-884
-[DEBUG] 2020-11-28 09:23:53,549 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 09:24:53,768 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 09:25:53,887 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 09:26:54,028 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 09:27:54,179 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 09:28:54,340 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 09:29:54,473 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 09:30:54,615 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 09:31:54,763 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 09:32:54,894 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[ERROR] 2020-11-28 09:33:54,058 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
-Site: library.test
-Form Dict: {
- "cmd": "frappe.realtime.get_user_info"
-}
-Request Error
-Traceback (most recent call last):
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
-    response = frappe.api.handle()
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
-    return frappe.handler.handle()
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
-    data = execute_cmd(cmd)
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
-    return frappe.call(method, **frappe.form_dict)
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
-    return fn(*args, **newargs)
-TypeError: get_user_info() missing 1 required positional argument: 'sid'
-[ERROR] 2020-11-28 09:33:54,217 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
-New Exception collected with id: 2020-11-28 09:33:54.058699-127.0.0.1-c63
-[DEBUG] 2020-11-28 09:34:53,117 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[ERROR] 2020-11-28 09:36:49,102 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
-Site: library.test
-Form Dict: {
- "cmd": "frappe.realtime.get_user_info"
-}
-Request Error
-Traceback (most recent call last):
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
-    response = frappe.api.handle()
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
-    return frappe.handler.handle()
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
-    data = execute_cmd(cmd)
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
-    return frappe.call(method, **frappe.form_dict)
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
-    return fn(*args, **newargs)
-TypeError: get_user_info() missing 1 required positional argument: 'sid'
-[ERROR] 2020-11-28 09:36:49,181 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
-New Exception collected with id: 2020-11-28 09:36:49.103052-127.0.0.1-59f
-[DEBUG] 2020-11-28 09:37:46,775 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 09:38:46,930 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 09:39:47,037 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 09:40:47,188 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[ERROR] 2020-11-28 10:02:43,715 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
-Site: library.test
-Form Dict: {
- "cmd": "frappe.realtime.get_user_info"
-}
-Request Error
-Traceback (most recent call last):
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
-    response = frappe.api.handle()
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
-    return frappe.handler.handle()
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
-    data = execute_cmd(cmd)
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
-    return frappe.call(method, **frappe.form_dict)
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
-    return fn(*args, **newargs)
-TypeError: get_user_info() missing 1 required positional argument: 'sid'
-[ERROR] 2020-11-28 10:02:43,801 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
-New Exception collected with id: 2020-11-28 10:02:43.715571-127.0.0.1-9a7
-[DEBUG] 2020-11-28 10:03:42,625 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 10:04:42,812 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 10:05:42,948 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 10:06:43,086 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 10:07:43,237 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 10:08:43,359 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 10:09:43,465 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[ERROR] 2020-11-28 10:10:36,491 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
-Site: library.test
-Form Dict: {
- "cmd": "frappe.realtime.get_user_info"
-}
-Request Error
-Traceback (most recent call last):
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
-    response = frappe.api.handle()
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
-    return frappe.handler.handle()
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
-    data = execute_cmd(cmd)
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
-    return frappe.call(method, **frappe.form_dict)
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
-    return fn(*args, **newargs)
-TypeError: get_user_info() missing 1 required positional argument: 'sid'
-[ERROR] 2020-11-28 10:10:36,636 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
-New Exception collected with id: 2020-11-28 10:10:36.491978-127.0.0.1-fcd
-[DEBUG] 2020-11-28 10:11:35,542 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[ERROR] 2020-11-28 10:12:08,706 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
-Site: library.test
-Form Dict: {
- "cmd": "frappe.realtime.get_user_info"
-}
-Request Error
-Traceback (most recent call last):
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
-    response = frappe.api.handle()
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
-    return frappe.handler.handle()
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
-    data = execute_cmd(cmd)
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
-    return frappe.call(method, **frappe.form_dict)
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
-    return fn(*args, **newargs)
-TypeError: get_user_info() missing 1 required positional argument: 'sid'
-[ERROR] 2020-11-28 10:12:08,880 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
-New Exception collected with id: 2020-11-28 10:12:08.707509-127.0.0.1-b51
-[DEBUG] 2020-11-28 10:13:08,069 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 10:14:08,228 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 10:15:08,359 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[ERROR] 2020-11-28 10:16:17,167 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
-Site: library.test
-Form Dict: {
- "cmd": "frappe.realtime.get_user_info"
-}
-Request Error
-Traceback (most recent call last):
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
-    response = frappe.api.handle()
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
-    return frappe.handler.handle()
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
-    data = execute_cmd(cmd)
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
-    return frappe.call(method, **frappe.form_dict)
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
-    return fn(*args, **newargs)
-TypeError: get_user_info() missing 1 required positional argument: 'sid'
-[ERROR] 2020-11-28 10:16:17,354 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
-New Exception collected with id: 2020-11-28 10:16:17.167625-127.0.0.1-eb9
-[DEBUG] 2020-11-28 10:17:16,158 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[ERROR] 2020-11-28 10:18:12,876 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
-Site: library.test
-Form Dict: {
- "cmd": "frappe.realtime.get_user_info"
-}
-Request Error
-Traceback (most recent call last):
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
-    response = frappe.api.handle()
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
-    return frappe.handler.handle()
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
-    data = execute_cmd(cmd)
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
-    return frappe.call(method, **frappe.form_dict)
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
-    return fn(*args, **newargs)
-TypeError: get_user_info() missing 1 required positional argument: 'sid'
-[ERROR] 2020-11-28 10:18:13,025 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
-New Exception collected with id: 2020-11-28 10:18:12.876543-127.0.0.1-b58
-[DEBUG] 2020-11-28 10:19:11,919 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 10:20:12,106 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 10:21:12,231 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[ERROR] 2020-11-28 10:21:25,314 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
-Site: library.test
-Form Dict: {
- "cmd": "frappe.realtime.get_user_info"
-}
-Request Error
-Traceback (most recent call last):
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
-    response = frappe.api.handle()
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
-    return frappe.handler.handle()
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
-    data = execute_cmd(cmd)
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
-    return frappe.call(method, **frappe.form_dict)
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
-    return fn(*args, **newargs)
-TypeError: get_user_info() missing 1 required positional argument: 'sid'
-[ERROR] 2020-11-28 10:21:25,485 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
-New Exception collected with id: 2020-11-28 10:21:25.315227-127.0.0.1-98f
-[DEBUG] 2020-11-28 10:22:24,241 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 10:23:24,401 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[ERROR] 2020-11-28 10:24:14,623 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
-Site: library.test
-Form Dict: {
- "cmd": "frappe.realtime.get_user_info"
-}
-Request Error
-Traceback (most recent call last):
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
-    response = frappe.api.handle()
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
-    return frappe.handler.handle()
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
-    data = execute_cmd(cmd)
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
-    return frappe.call(method, **frappe.form_dict)
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
-    return fn(*args, **newargs)
-TypeError: get_user_info() missing 1 required positional argument: 'sid'
-[ERROR] 2020-11-28 10:24:14,695 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
-New Exception collected with id: 2020-11-28 10:24:14.623557-127.0.0.1-892
-[DEBUG] 2020-11-28 10:25:12,612 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[ERROR] 2020-11-28 10:25:41,680 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
-Site: library.test
-Form Dict: {
- "cmd": "frappe.realtime.get_user_info"
-}
-Request Error
-Traceback (most recent call last):
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
-    response = frappe.api.handle()
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
-    return frappe.handler.handle()
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
-    data = execute_cmd(cmd)
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
-    return frappe.call(method, **frappe.form_dict)
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
-    return fn(*args, **newargs)
-TypeError: get_user_info() missing 1 required positional argument: 'sid'
-[ERROR] 2020-11-28 10:25:41,829 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
-New Exception collected with id: 2020-11-28 10:25:41.681225-127.0.0.1-92a
-[DEBUG] 2020-11-28 10:26:40,776 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 10:27:40,889 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[ERROR] 2020-11-28 10:27:51,944 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
-Site: library.test
-Form Dict: {
- "cmd": "frappe.realtime.get_user_info"
-}
-Request Error
-Traceback (most recent call last):
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
-    response = frappe.api.handle()
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
-    return frappe.handler.handle()
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
-    data = execute_cmd(cmd)
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
-    return frappe.call(method, **frappe.form_dict)
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
-    return fn(*args, **newargs)
-TypeError: get_user_info() missing 1 required positional argument: 'sid'
-[ERROR] 2020-11-28 10:27:52,117 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
-New Exception collected with id: 2020-11-28 10:27:51.944946-127.0.0.1-b96
-[DEBUG] 2020-11-28 10:28:51,103 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 10:29:51,258 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 10:30:51,424 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[ERROR] 2020-11-28 10:31:15,889 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py:
-Site: library.test
-Form Dict: {
- "cmd": "frappe.realtime.get_user_info"
-}
-Request Error
-Traceback (most recent call last):
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/app.py", line 64, in application
-    response = frappe.api.handle()
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/api.py", line 59, in handle
-    return frappe.handler.handle()
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 24, in handle
-    data = execute_cmd(cmd)
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/handler.py", line 64, in execute_cmd
-    return frappe.call(method, **frappe.form_dict)
-  File "/home/anotherguest/erpnext/projectName/apps/frappe/frappe/__init__.py", line 1064, in call
-    return fn(*args, **newargs)
-TypeError: get_user_info() missing 1 required positional argument: 'sid'
-[ERROR] 2020-11-28 10:31:16,093 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/error.py:
-New Exception collected with id: 2020-11-28 10:31:15.890080-127.0.0.1-4aa
-[DEBUG] 2020-11-28 10:32:14,799 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
-Site: library.test
-Queued events for site library.test
-[DEBUG] 2020-11-28 10:33:14,926 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-12-02 17:39:51,051 | /home/anotherguest/erpnext/projectName/apps/frappe/frappe/utils/scheduler.py:
 Site: library.test
 Queued events for site library.test

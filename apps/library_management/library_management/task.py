@@ -4,6 +4,7 @@
 from __future__ import unicode_literals
 import frappe
 from frappe.utils import date_diff, nowdate, formatdate, add_days
+import csv
 
 
 def daily():
@@ -12,21 +13,21 @@ def daily():
 
     overdue = get_overdue(loan_period)
 
-    for member, items in overdue.items():
-        content = """<h2>Following Items are Overdue</h2>
-        <p>Please return them as soon as possible</p><ol>"""
+    logDict = {}
 
-        # for i in items:
-        #     content += "<li>{0} ({1}) due on</li>".format(i.name,
-        #                                                   i.article)
-        #
-        # content += "</ol>"
+    # for member, items in overdue.items():
 
-        frappe.log_error(items, "New Logging {}".format(member))
-        # recipient = frappe.db.get_value("Library Member", member, "email_id")
-        # frappe.sendmail(recipients=[recipient],
-        #                 sender="test@example.com",
-        #                 subject="Library Articles Overdue", content=content, bulk=True)
+    #     if member == "name" or member == "transaction_date":
+    #         logDict[member] = items
+    with open('overdue.csv', mode='w') as csv_file:
+        fieldnames = [ 'name','docstatus', 'library_member', 'type', 'transaction_date', 'article']
+        writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
+        writer.writeheader()
+
+        for x in overdue:
+            writer.writerow(x)
+            
+            frappe.log_error(x, "New Logging")
 
 
 def get_overdue(loan_period):
@@ -35,19 +36,25 @@ def get_overdue(loan_period):
 
     overdue_by_member = {}
     articles_transacted = []
-
-    for d in frappe.db.sql("""select *, date as transaction_date
+    helloworld = {}
+    y = frappe.db.sql("""select name,article, library_member, type, date as transaction_date, docstatus
         from `tabLibrary Transaction`
-        order by transaction_date desc, modified desc""", as_dict=1):
+        order by transaction_date desc""", as_dict=True)
 
-        if d.article in articles_transacted:
-            continue
+    d = frappe.db.get_list('Library Transaction',
+                           fields=['name', 'article', 'library_member', 'type', 'date'],
+                           order_by='date desc',
+                           as_list=True
+                           )
 
-        if d.transaction_type == "Issue" and \
-                date_diff(today, d.transaction_date) > loan_period:
-            overdue_by_member.setdefault(d.library_member, [])
-            overdue_by_member[d.library_member].append(d)
+    # if d.article in articles_transacted:
+    #     continue
 
-        articles_transacted.append(d.article)
+    # if d.transaction_type == "Issue" and \
+    #         date_diff(today, d.transaction_date) > loan_period:
+    #     overdue_by_member.setdefault(d.library_member, [])
+    #     overdue_by_member[d.library_member].append(d)
 
-        return d
+    # articles_transacted.append(d.article)
+    
+    return y
