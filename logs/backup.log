@@ -103,3 +103,8 @@ Database backup: ./library.test/private/backups/20201202_060002-library_test-dat
 Backup Summary at 2020-12-02 12:00:03.091592
 --------------------------------------------
 Database backup: ./library.test/private/backups/20201202_120002-library_test-database.sql.gz
+/home/anotherguest/erpnext/projectName/env/lib/python3.5/site-packages/OpenSSL/crypto.py:12: CryptographyDeprecationWarning: Python 3.5 support will be dropped in the next release of cryptography. Please upgrade your Python.
+  from cryptography import x509
+Backup Summary at 2020-12-03 12:00:20.975617
+--------------------------------------------
+Database backup: ./library.test/private/backups/20201203_120011-library_test-database.sql.gz
